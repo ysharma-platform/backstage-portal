@@ -2,12 +2,10 @@
 
 A production-grade [Backstage](https://backstage.io) developer portal, built end-to-end via **Spec-Driven Development** using [GitHub SpecKit](https://github.com/github/spec-kit), deployed locally to a real multi-node `kind` Kubernetes cluster, designed to migrate cleanly to Amazon EKS.
 
-This is also the source material for a free, hands-on course: every feature ("chapter") ships as one small, reviewable PR with an accompanying `teaching-notes.md` — a beginner-friendly explanation plus the Staff+-level judgment call behind it.
-
 ## How this project is organized
 
 - **Arc** — a theme of work (Foundations, GitOps, Observability, Auth, ...), tracked as a [Milestone](../../milestones)
-- **Chapter** — one SpecKit feature (`specs/NNN-name/`), scoped to a single small PR, explainable to a complete beginner in ≤5 minutes
+- **Chapter** — one SpecKit feature (`specs/NNN-name/`), scoped to a single small, independently reviewable PR
 - Every cross-cutting or hard-to-reverse decision is recorded as an ADR under `docs/adr/`
 - Progress is tracked on the [Backstage Portal Roadmap project board](https://github.com/orgs/ysharma-platform/projects/1)
 
