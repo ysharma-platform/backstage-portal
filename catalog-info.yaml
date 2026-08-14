@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-portal
+  description: Production-grade Backstage developer portal, built via Spec-Driven Development.
+  annotations:
+    github.com/project-slug: ysharma-platform/backstage-portal
+    # backstage.io/techdocs-ref: dir:.  # wired up once TechDocs is configured
+spec:
+  type: website
+  owner: ysharma-platform # real ownership via Catalog Ingestion (Arc 5) once User/Group entities exist
+  lifecycle: experimental
